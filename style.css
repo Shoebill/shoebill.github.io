@@ -16,21 +16,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 
-a{
-	color:lor:#FFFFFF!important;
-}
-
- a:hover{
-	color:#000000!important;
-	 text-decoration: none;
-	 cursor:pointer;
-}
-
+   
 
 
 /* Globals type styling */
-   
- h1, h2, h3, h4, h5, h6, p, label, .btn, a{
+    h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 	font-family:"Helvetica";
 }
 
@@ -164,16 +154,6 @@ a{
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
-/* Dividers */
-
-.b-divider{
-	border-top:1px solid rgba(0,0,0,.1);
-	border-bottom:1px solid rgba(0,0,0,.1);
-}
-.b-divider-dashed{
-	border-top:1px dashed rgba(0,0,0,.1);
-	border-bottom:1px dashed rgba(0,0,0,.1);
-}
 
 /* Bloc text custom styling */
 
@@ -183,11 +163,8 @@ a{
 #hero-bloc h3{
 	font-size:30px;
 }
-#bloc-3 h3{
-	font-size: 36px;
-}
-#bloc-getting-started h3{
-	font-size: 72px;
+#bloc-getting-started h1{
+	font-size: 52px;
 }
 
 /* = NavBar
@@ -449,34 +426,31 @@ iframe{
 
 /* Background colour styles */
 
-.bgc-dark-jungle-green{
-	background-color:#272727;
+.bgc-white{
+	background-color:#ffffff;
 }
 .bgc-onyx{
-	background-color:#171719;
+	background-color:#111113;
 }
-/* Text colour styles */
+/* Button colour styles */
 
-.tc-white{
-	color:#FFFFFF!important;
+.btn-outer-space{
+	background-color:#47454B;
+	color:#FFF!important;
 }
-.tc-white-2{
-	color:#FEFFFF!important;
-}
-/* Icon colour styles */
-
-.icon-white{
-	color:#FFFFFF!important;
-	border-color:#FFFFFF!important;
-}
-
+.btn-outer-space:hover{
+	background-color:#3b393e;
+	!important}
 /* Bloc image backgrounds */
 
-}.bg-camera-overlay{
-	background-image:url('img/camera-overlay.png');
-}
 .bg-city{
-	background-image:url('img/city.jpg');
+	background-image:url("img/city.jpg");
+}
+.bg-camera{
+	background-image:url("img/camera.jpg");
+}
+.bg-camera-overlay{
+	background-image:url("img/camera-overlay.png");
 }
 
 
